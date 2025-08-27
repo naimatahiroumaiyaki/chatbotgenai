@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "generated_at": "2025-08-22 12:10:43 WAT",
+    "source_note": "Certaines valeurs (horaires, effectif) ne sont pas publiées officiellement en ligne; voir 'notes' pour les précisions et à confirmer auprès des agences."
+  },
+  "organization": {
+    "name": "Banque Agricole du Niger",
+    "short_name": "BAGRI",
+    "legal_form": "Banque commerciale (publique à l'origine)",
+    "sector": [
+      "Banque",
+      "Financement agricole"
+    ],
+    "mission": "Financement de l’agriculture et des chaînes de valeur agro-sylvo-pastorales au Niger; inclusion financière des petits producteurs."
+  },
+  "history": {
+    "created": {
+      "event": "Création / ouverture officielle",
+      "date": "2010-07",
+      "detail": "Ouverture officielle en 2010 (période de transition, cérémonie d’inauguration)."
+    },
+    "operations_start": {
+      "event": "Démarrage effectif des opérations bancaires",
+      "date": "2011",
+      "detail": "La banque communique avoir 13 ans d’activité en 2024, ce qui suggère un démarrage opérationnel en 2011."
+    },
+    "capital_initial": {
+      "amount_CFA": 10000000000,
+      "ownership": "Capital initial entièrement détenu par l’État du Niger (au lancement)."
+    },
+    "milestones": [
+      {
+        "year": 2012,
+        "event": "Protocole avec partenaires pour financement agricole (warrantage, commercialisation)."
+      },
+      {
+        "year": 2021,
+        "event": "BAGRI annonce 24 agences sur tout le territoire national."
+      },
+      {
+        "year": 2024,
+        "event": "Communication officielle: 13 ans d’activité."
+      }
+    ]
+  },
+  "head_office": {
+    "address": "Place Toumo, Avenue de l’OUA, Niamey, Niger",
+    "phones": [
+      "+227 20 73 13 50",
+      "+227 20 34 04 44"
+    ],
+    "short_code": "12494",
+    "email": "contact@bagriniger.ne",
+    "bic_swift": "BANENENIXXX",
+    "website": "https://bagri.ne",
+    "ebanking": "https://bagrinet.com"
+  },
+  "network": {
+    "coverage": "Présente dans les 8 régions du Niger",
+    "agencies_count": 24,
+    "agencies": [
+      {
+        "city": "Niamey",
+        "name": "Agence Principale",
+        "phones": [
+          "+227 20 73 13 50",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Plateau"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Francophonie"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Campus"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Saga"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Maourey"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Rond point Baré"
+      },
+      {
+        "city": "Niamey",
+        "name": "Agence Wadata"
+      },
+      {
+        "city": "Maradi",
+        "name": "Agence de Maradi",
+        "phones": [
+          "+227 20 41 12 44",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Dosso",
+        "name": "Agence de Dosso",
+        "phones": [
+          "+227 20 65 05 90",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Magaria",
+        "name": "Agence de Magaria",
+        "phones": [
+          "+227 20 65 40 60",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Téra",
+        "name": "Agence de Téra",
+        "phones": [
+          "+227 21 71 50 50",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Dogondoutchi",
+        "name": "Agence de Doutchi",
+        "phones": [
+          "+227 20 65 40 60",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Tahoua",
+        "name": "Agence de Tahoua",
+        "phones": [
+          "+227 20 61 04 74",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Dakoro",
+        "name": "Agence de Dakoro",
+        "phones": [
+          "+227 20 41 80 47",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Tessaoua",
+        "name": "Agence de Tessaoua",
+        "phones": [
+          "+227 20 41 80 47",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Agadez",
+        "name": "Agence de Agadez",
+        "phones": [
+          "+227 20 44 09 19",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Zinder",
+        "name": "Agence de Zinder",
+        "phones": [
+          "+227 20 73 13 50",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Tillabéri",
+        "name": "Agence de Tillaberi",
+        "phones": [
+          "+227 20 71 10 86",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      },
+      {
+        "city": "Konni",
+        "name": "Agence de Konni",
+        "phones": [
+          "+227 20 64 01 87",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "24536"
+      },
+      {
+        "city": "Madaoua",
+        "name": "Agence de Madaoua",
+        "phones": [
+          "+227 20 61 80 65",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "24536"
+      },
+      {
+        "city": "Diffa",
+        "name": "Agence de Diffa",
+        "phones": [
+          "+227 20 54 06 00",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "24536"
+      },
+      {
+        "city": "Matamey",
+        "name": "Agence de Matamey",
+        "phones": [
+          "+227 20 73 13 50",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "24536"
+      },
+      {
+        "city": "Gaya",
+        "name": "Agence de Gaya",
+        "phones": [
+          "+227 20 73 13 50",
+          "+227 20 34 04 44"
+        ],
+        "short_code": "12494"
+      }
+    ]
+  },
+  "Nos_directeurs": {
+    "nos_directeurs": [
+      {
+        "role": "Directeur Général",
+        "name": "MOUSSA BOUSSI Mariama"
+      },
+      {
+        "role": "Directeur Général Adjoint",
+        "name": "DANDARE IBRAHIM"
+      },
+      {
+        "role": "Directeur Général Adjoint",
+        "name": "MAHAMANE AMADOU MAIGA"
+      },
+      {
+        "role": "Directeur Commercial",
+        "name": "ADAMOU ALTINE"
+      },
+      {
+        "role": "Directrice de la Digitalisation et du Marketing",
+        "name": "ABBA SOULEYMANE HALIMA"
+      },
+      {
+        "role": "Directrice des Opérations",
+        "name": "MME FODO SALAMATOU ALI MAAZOU"
+      }
+    ]
+  },
+  "products_services": {
+    "particuliers": [
+      "Comptes courants et d’épargne",
+      "Cartes",
+      "Transferts & Changes",
+      "Crédits"
+    ],
+    "professionnels": [
+      "Comptes professionnels",
+      "Crédits",
+      "Financement Agricole",
+      "Transferts & Changes"
+    ],
+    "digital": [
+      "Ebanking (Bagrinet)",
+      "GAB/ATM"
+    ]
+  },
+  "hours": {
+    "general_note": "Les horaires exacts varient selon les agences et ne sont pas publiés uniformément. Usage courant observé au Niger : lun–ven ~08:00–16:00. Vérifier auprès de l’agence avant déplacement.",
+    "default_local_time": {
+      "monday": "08:00–16:00",
+      "tuesday": "08:00–16:00",
+      "wednesday": "08:00–16:00",
+      "thursday": "08:00–16:00",
+      "friday": "08:00–16:00",
+      "saturday": "Fermé",
+      "sunday": "Fermé"
+    }
+  },
+  "employees": {
+    "count": null,
+    "note": "Nombre d’employés non communiqué publiquement en source officielle récente."
+  },
+  "notes": [
+    "Plus de 5 000 petits producteurs accompagnés et plus de 20 000 comptes producteurs ouverts (communication institutionnelle).",
+    "Annonces récentes indiquent un réseau de 24 agences sur l’ensemble du territoire."
+  ],
+  "sources": [
+    {
+      "title": "Site officiel – Présentation",
+      "url": "https://bagri.ne/presentation/"
+    },
+    {
+      "title": "Site officiel – Réseaux / Agences",
+      "url": "https://bagri.ne/reseaux-agences/"
+    },
+    {
+      "title": "Site officiel – Accueil (réseau et 13 ans)",
+      "url": "https://bagri.ne/"
+    },
+    {
+      "title": "Inter-réseaux – Inauguration (2010)",
+      "url": "https://www.inter-reseaux.org/ressource/inauguration-de-la-banque-agricole-du-niger-bagri/"
+    },
+    {
+      "title": "La Tribune Afrique – BPM bientôt actionnaire majoritaire (capital, 2018)",
+      "url": "https://afrique.latribune.fr/finances/banques-assurances/2018-08-15/banques-la-bpm-bientot-actionnaire-majoritaire-de-la-banque-agricole-du-niger-787733.html"
+    },
+    {
+      "title": "Confidentiel Afrique – Présence 8 régions / 24 agences",
+      "url": "https://confidentielafrique.com/niger-pose-de-la-premiere-pierre-du-siege-social-de-la-banque-agricole-du-niger/"
+    },
+    {
+      "title": "Code SWIFT (Wise)",
+      "url": "https://wise.com/fr/swift-codes/BANENENIXXX"
+    }
+  ]
+}

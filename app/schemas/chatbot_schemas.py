@@ -7,4 +7,27 @@ class ChatRequest(BaseModel):
     message: str
 
 class ChatResponse(BaseModel):
+    roomId: str
     reply: str
+
+
+
+
+
+
+
+
+
+
+
+
+''''
+#conversation
+
+class CreateConversationRequest(BaseModel):
+    user_id:str
+
+
+class AddMessageRequest(BaseModel):
+    message_test:str
+    '''
