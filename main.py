@@ -18,6 +18,12 @@ app = FastAPI()
 
 # include the routes
 app.include_router(auth_routes.router, prefix="/auth", tags=["auth"])
+
+
+
+# Inclure le router
+app.include_router(chatbot_route.router, prefix="/api", tags=["api"])
+
 ##
 
 # Montage des routes
@@ -65,7 +71,7 @@ async def auth_middleware(request: Request, call_next):
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Or specify your frontend domain
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

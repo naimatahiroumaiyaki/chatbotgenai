@@ -18,23 +18,22 @@ async def register(payload: UserRegister):
 @router.post("/login")
 async def login(payload: UserLogin):
     try:
-        # 1) Authentifier l'utilisateur
+        
         user = await login_user(payload.email, payload.password)
 
-        # 2) Vérifier/créer la room
         room = await db.room.find_first(where={"userId": user.id})
         if not room:
             room = await db.room.create(data={"userId": user.id})
         room_id = room.id
 
-        # 3) Générer le token JWT
+     
         access_token_expires = timedelta(minutes=60)
         access_token = create_access_token(
             data={"sub": user.id}, 
             expires_delta=access_token_expires
         )
 
-        # 4) Retourner la réponse
+      
         return {
             "access_token": access_token,
             "token_type": "bearer",

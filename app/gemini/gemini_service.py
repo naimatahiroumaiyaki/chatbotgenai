@@ -2,6 +2,7 @@
 from google import genai
 import os
 import json
+import enum
 
 ##
 from dotenv import load_dotenv
@@ -16,6 +17,9 @@ with open("bagri_knowledge.json", "r", encoding="utf-8") as f:
 
     data = json.load(f)
 
+with open("faq_fr.json", "r", encoding="utf-8") as f:
+    faq_data = json.load(f)
+
 bagri_knowledge = f"""
     Tu es un assistant virtuel pour la Banque Agricole du Niger (BAGRI).
 Voici des informations officielles :
@@ -29,18 +33,37 @@ Horaires par défaut : {data['hours']['default_local_time']['monday']} (lun–ve
 Directeurs : {data}
 """
 
+def get_top_faq(limit=5):
+    """
+    Retourne les 'limit' questions les plus fréquentes
+    """
+    sorted_faq = sorted(faq_data.items(), key=lambda x: x[1]['rank'])
+    return [{"question": q, "answer": v["answer"]} for q, v in sorted_faq[:limit]]
+
+
+
 
 def get_gemini_reply(message: str) -> str:
     """
-    Utilise gemini pour générer une réponse à partir d'un message.
+    Retourne une réponse en cherchant d'abord dans la FAQ, sinon appelle Gemini.
     """
+    question_clean = message.lower()
+
+    # Vérifier FAQ locale
+    for keyword, entry in faq_data.items():
+        if keyword in question_clean:
+            return entry["answer"]
+        
+
+
     try:
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=message,
             config={
                 "system_instruction": bagri_knowledge  # Ajout de l’instruction système
-            }
+            },
+            
         ) 
         return response.text
     except Exception as e:

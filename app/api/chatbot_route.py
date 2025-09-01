@@ -6,7 +6,8 @@ from fastapi.encoders import jsonable_encoder
 from app.services import message_service
 #from datetime import datetime, timedelta
 from app.core.db import db
-from app.services.auth import verify_token 
+from app.services.auth import verify_token
+from app.gemini.gemini_service import get_top_faq 
 
 router = APIRouter()
 
@@ -26,7 +27,9 @@ async def chat(payload: ChatRequest, user_id: str = Depends(verify_token)):
     result = await handle_chat(user_id, payload.message, payload.room_id)
     return result
 
-
+@router.get("/top-faqs")
+def top_faqs():
+    return get_top_faq()
 
 
 @router.get("/chat")

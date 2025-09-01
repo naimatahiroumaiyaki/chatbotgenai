@@ -1,0 +1,22 @@
+{
+  "services": {
+    "answer": "La Banque Agricole du Niger propose des services pour particuliers et professionnels : comptes courants, comptes épargne (Jaari), dépôts à terme, et des prêts (consommation, ramadan, tabaski, scolaire).",
+    "rank": 1
+  },
+  "ouvrir un compte": {
+    "answer": "Vous pouvez ouvrir un compte via le site web ou l’application mobile BAGRINET, disponibles sur Play Store et App Store, avec des procédures en ligne simplifiées.",
+    "rank": 2
+  },
+  "localisation": {
+    "answer": "Le siège est à Niamey (Avenue de l’Indépendance), et la BAGRI compte environ 24 agences réparties sur tout le Niger.",
+    "rank": 3
+  },
+  "mission historique": {
+    "answer": "Fondée en juillet 2010, la BAGRI finance le secteur agro-sylvo-pastoral nigérien, soutenant plus de 10 000 producteurs avec environ 11 milliards de FCFA en crédits.",
+    "rank": 4
+  },
+  "contact": {
+    "answer": "Vous pouvez nous contacter via les numéros officiels, par email ou via l’application mobile BAGRINET pour accéder facilement à nos services.",
+    "rank": 5
+  }
+}

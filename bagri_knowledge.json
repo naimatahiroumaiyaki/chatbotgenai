@@ -242,8 +242,8 @@
       }
     ]
   },
-  "Nos_directeurs": {
-    "nos_directeurs": [
+  "leadership": {
+    "directors": [
       {
         "role": "Directeur Général",
         "name": "MOUSSA BOUSSI Mariama"
@@ -262,12 +262,46 @@
       },
       {
         "role": "Directrice de la Digitalisation et du Marketing",
-        "name": "ABBA SOULEYMANE HALIMA"
+        "name": "ABBA SOULEYMANE HALIMA",
+        "profileLinkedIn": "https://www.linkedin.com/in/halima-abba-114847259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXNsJ2XLBTZ%2Bcw08n3x%2FuRA%3D%3D"
       },
       {
         "role": "Directrice des Opérations",
         "name": "MME FODO SALAMATOU ALI MAAZOU"
+      },
+      {
+        "role": " Directeur des Systèmes d'information",
+        "name": "MOUTARI MAMAN MOUTARI"
+      },
+      {
+        "role": "Directeur comptable et financier",
+        "name": "OUEDRAGO LASSAN PIERRE"
+      },
+      {
+        "role": "Directrice des Engagements",
+        "name": "Mme Samna Zeinab"
+      },
+      {
+        "role": "Directrice Juridique Recouvrement et Contentieux",
+        "name": "MME HAMA RIMANA"
+      },
+      {
+        "role": "Directeur Risque et conformité",
+        "name": "Adamou Bagagi Bassirou"
+      },
+      {
+        "role": "Directeur des Ressources humaines et matériels",
+        "name": "ABDOURAHAMANE BOUKARI"
+      },
+      {
+        "role": "Directrice Audit et Inspection des Services",
+        "name": "Dodo Natatou"
+      },
+      {
+        "role": "",
+        "name": ""
       }
+
     ]
   },
   "products_services": {

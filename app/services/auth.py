@@ -6,8 +6,9 @@ import os
 from dotenv import load_dotenv
 
 
+
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
-load_dotenv()  # charge les variables du fichier .env
+load_dotenv()  
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
@@ -32,10 +33,10 @@ def verify_token(token:str):
 
 async def verify_token(token: str = Depends(oauth2_scheme)):
     try:
-        # On décode le token avec la clé secrète
+      
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         
-        # On récupère l'ID de l'utilisateur depuis le champ "sub"
+       
         user_id: str = payload.get("sub")
         
         if user_id is None:
@@ -44,7 +45,7 @@ async def verify_token(token: str = Depends(oauth2_scheme)):
                 detail="Token invalide",
             )
         
-        return user_id  # On retourne l'ID de l'utilisateur pour l'utiliser dans la route
+        return user_id  
     
     except JWTError:
         raise HTTPException(
